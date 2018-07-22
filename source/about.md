@@ -14,9 +14,9 @@ title: 关于我
 　　慢慢的，我搭建起了真正属于自己的网站。从学基础的 DNS 解析开始、优化网站 SEO——曾经打破过百度不收录 .co.cc 域名的规矩，一直到 2013 年尝试修改 Discuz! X2.5 的源码 （[关于 Discuz! x2.5 自定义栏目用于注册时的数据校验](/2013/07/14/%E5%85%B3%E4%BA%8E%20Discuz!%20x2.5%20%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%8F%E7%9B%AE%E7%94%A8%E4%BA%8E%E6%B3%A8%E5%86%8C%E6%97%B6%E7%9A%84%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C/)）。用过了各种各样的免费资源，比如免费域名 .tk、.co.cc、免费 PHP 空间 byethost、免费在线数据库 db4free、免费 VPS Host1Free（HapHost）、OVH、AWS、BAE 以及 Azure 等等等等，同时还加了一个专门讨论这些免费资源聊建站的群，认识了不少人。
 　　2012 年底，我用起了 WordPress，一开始并没有做博客，而是实验性地搭起了一个[专门用来记录备忘录的网站](http://bwl.imjs.work/page/19)，发现还挺好用，于是在 2013 年用 WordPress 搭建了本博客（当然现在是 hexo 了，至于为什么换 hexo，后面再说）。
 　　这些年也算是发了一些作品，顺便也挂这里吧：
-- [金十数据 WordPress 插件]/2015/11/04/%E5%8F%91%E5%B8%83%E4%B8%AA%E9%87%91%E5%8D%81%E6%95%B0%E6%8D%AE%E6%8F%92%E4%BB%B6/ （现在不能用了）
-- [phpCurlClass]https://github.com/jshensh/phpCurlClass
-- [账簿]https://github.com/jshensh/books
+- [金十数据 WordPress 插件](/2015/11/04/%E5%8F%91%E5%B8%83%E4%B8%AA%E9%87%91%E5%8D%81%E6%95%B0%E6%8D%AE%E6%8F%92%E4%BB%B6/) （现在不能用了）
+- [phpCurlClass](https://github.com/jshensh/phpCurlClass)
+- [账簿](https://github.com/jshensh/books)
 
 ### 2014 远程兼职
 　　
