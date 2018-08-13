@@ -8,6 +8,7 @@ title: 斐讯 K3 流光金开箱与 TTL 刷 LEDE 教程（适用于 v21.5.39.260
 wordpress_id: 2742
 categories:
 - openwrt
+- 斐讯
 ---
 **注意：V21.5.39.260 集成的 CFE 编译日期为 8月2日，斐讯封堵了 CFE 网页执行命令，而且固件采用公私钥验证，除了 TTL 手动执行命令基本无法刷入其他固件（[斐讯K3 官方固件root版本 安装插件 entware ](http://www.right.com.cn/forum/thread-212725-1-1.html)）**
 
