@@ -3,7 +3,7 @@ author: 403 Forbidden
 comments: true
 date: 2018-08-13 14:16:02+00:00
 layout: post
-title: 斐讯N1折腾记：运行 Linux 及优化
+title: 斐讯 N1 折腾记：运行 Linux 及优化
 categories:
 - 斐讯
 ---
