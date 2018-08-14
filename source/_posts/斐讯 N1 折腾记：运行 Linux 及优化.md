@@ -18,27 +18,27 @@ categories:
 　　所以我们需要准备一个 U 盘来制作启动盘，U 盘大小推荐不低于 8G，连续读写速度推荐达到 30M/s，随机读写速度推荐达到 10M/s。最好是买个全新的，如果是旧的，提前备份好 U 盘内数据。
 　　N1 运行的 Linux 发行版叫做 Armbian，玩过树莓派的小伙伴应该对这个系统不陌生，是适用于 ARM 架构的 Debian 和 Ubuntu。
 
->　　**下载地址**
+>**下载地址**
 >
->　　Armbian：
->　　[https://yadi.sk/d/pHxaRAs-tZiei](https://yadi.sk/d/pHxaRAs-tZiei)
->　　[https://mega.nz/#F!j9QSDQSQ!6WpasOlbZYIInfw6yo4phQ](https://mega.nz/#F!j9QSDQSQ!6WpasOlbZYIInfw6yo4phQ)
->　　[https://share.weiyun.com/5eCvcvS](https://share.weiyun.com/5eCvcvS) （部分搬运）密码：mivmcn
->　　启动盘制作工具：[https://www.alexpage.de/usb-image-tool/download/](https://www.alexpage.de/usb-image-tool/download/)
+>Armbian：
+>[https://yadi.sk/d/pHxaRAs-tZiei](https://yadi.sk/d/pHxaRAs-tZiei)
+>[https://mega.nz/#F!j9QSDQSQ!6WpasOlbZYIInfw6yo4phQ](https://mega.nz/#F!j9QSDQSQ!6WpasOlbZYIInfw6yo4phQ)
+>[https://share.weiyun.com/5eCvcvS](https://share.weiyun.com/5eCvcvS) （部分搬运）密码：mivmcn
+>启动盘制作工具：[https://www.alexpage.de/usb-image-tool/download/](https://www.alexpage.de/usb-image-tool/download/)
 
 　　里面有好几个版本，下载最新的 5.44 版本，然后选择 kernel_3.14，3.14 内核在 N1 上面使用最好，WiFi、蓝牙都可以正常工作，如果你不需要蓝牙和 WiFi，也可以使用 4.16 版本。
 
->　　**IMG 文件名含义**
+>**IMG 文件名含义**
 >
->　　例如：``Armbian_5.44_S9xxx_Debian_stretch_3.14.29_server_20180601.img``
->　　Armbian：这个就不多说了
->　　5.44：Armbian 的版本号
->　　S9xxx：适用的 CPU
->　　Debian：基于 Debian 编译的，另外还有 Ubuntu。
->　　stretch：Debian 或 Ubuntu 的发行版代号，stretch 表示的是 Debian 9。
->　　3.14.29：Linux 内核版本号
->　　server：桌面环境，Server 代表的是服务器版，没桌面环境，其他的代表的是相应的桌面环境，比如：xfce、mate。
->　　20180601：编译日期
+>例如：``Armbian_5.44_S9xxx_Debian_stretch_3.14.29_server_20180601.img``
+>Armbian：这个就不多说了
+>5.44：Armbian 的版本号
+>S9xxx：适用的 CPU
+>Debian：基于 Debian 编译的，另外还有 Ubuntu。
+>stretch：Debian 或 Ubuntu 的发行版代号，stretch 表示的是 Debian 9。
+>3.14.29：Linux 内核版本号
+>server：桌面环境，Server 代表的是服务器版，没桌面环境，其他的代表的是相应的桌面环境，比如：xfce、mate。
+>20180601：编译日期
 
 　　小白推荐使用 Ubuntu，桌面环境推荐使用 mate。我推荐使用 Debian Server，做一个真正的服务器。
 　　下面我会以 Armbian_5.44_S9xxx_Debian_stretch_3.14.29_server_20180601 版为例
