@@ -21,6 +21,7 @@ categories:
 >**下载地址**
 >
 >Armbian：
+>[https://pan.baidu.com/s/1ux7zAF2QYoLWwTTB0Ah5ug](https://pan.baidu.com/s/1ux7zAF2QYoLWwTTB0Ah5ug) 密码：axov
 >[https://yadi.sk/d/pHxaRAs-tZiei](https://yadi.sk/d/pHxaRAs-tZiei)
 >[https://mega.nz/#F!j9QSDQSQ!6WpasOlbZYIInfw6yo4phQ](https://mega.nz/#F!j9QSDQSQ!6WpasOlbZYIInfw6yo4phQ)
 >[https://share.weiyun.com/5eCvcvS](https://share.weiyun.com/5eCvcvS) （部分搬运）密码：mivmcn
