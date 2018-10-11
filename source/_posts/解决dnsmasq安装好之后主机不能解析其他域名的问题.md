@@ -79,4 +79,4 @@ resolv-file=/etc/resolv.conf
 ```
 之后就是重复我上面第一种情况的操作了
 
-转载自 [!https://www.jianshu.com/p/81c0221de34c](https://www.jianshu.com/p/81c0221de34c)
+转载自 [https://www.jianshu.com/p/81c0221de34c](https://www.jianshu.com/p/81c0221de34c)
