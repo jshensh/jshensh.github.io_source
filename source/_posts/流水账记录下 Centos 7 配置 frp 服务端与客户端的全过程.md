@@ -57,8 +57,8 @@ nohup /usr/local/frp/frps -c /usr/local/frp/frps_full.ini >> /root/frp.log 2>&1 
 
 然后执行：
 ```shell
-systemctl frps enable
-service frps start
+systemctl enable frps
+systemctl start frps
 
 ```
 
@@ -127,8 +127,7 @@ nohup /usr/local/frp/frpc -c /usr/local/frp/frpc_full.ini >/dev/null 2>&1 & echo
 
 最后执行：
 ```shell
-systemctl frp enable
-service frp start
-
+systemctl enable frp
+systemctl start frp
 ```
 
