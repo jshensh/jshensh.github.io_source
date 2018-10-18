@@ -108,7 +108,7 @@ WantedBy=multi-user.target
 ```shell
 #!/bin/sh
 echo $(date +"%Y-%m-%d %H:%M:%S") > /tmp/frpTimestamp
-ps aux | grep "frp -c" | grep -v grep
+ps aux | grep "frpc -c" | grep -v grep
 if [ $? -ne 0 ];then
     ntpdate ntp1.aliyun.com && (nohup /usr/local/frp/frpc -c /usr/local/frp/frpc_full.ini >> /root/frp.log 2>&1 & echo $! > /var/run/frp-client.pid)
 fi;
