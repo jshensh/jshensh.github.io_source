@@ -9,12 +9,16 @@ categories:
 ---
 ## 注意事项
 
+---
+
 1. 如果用作旁路由，则 N1 接主路由的的LAN口
 2. 如果用作主路由，则 N1 接入交换机或AP模式的路由器或不插 WAN 口的路由器
 3. 以上的交换机或路由器设置为 192.168.1.X，但不能为 192.168.1.1，关闭除了 N1 外所有设备的 dhcp 服务
 4. 开 udp 转发，请：``opkg install iptables-mod-tproxy``
 
 ## 制作镜像
+
+---
 
 1. 首先创建目录 openwrt
 
@@ -120,7 +124,9 @@ losetup -d /dev/loop0
 现在 Armbian_5.60_Aml-s9xxx_Debian_stretch_default_4.18.7_20180922.img 已被修改为 openwrt 系统。
 
 ## 路由相关设置
-<br />
+
+---
+
 ### 主路由设置
 
 1. 进入 Network --> Interfaces
