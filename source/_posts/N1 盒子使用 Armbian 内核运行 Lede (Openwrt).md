@@ -50,7 +50,7 @@ losetup -P -f --show Armbian_5.60_Aml-s9xxx_Debian_stretch_default_4.18.7_201809
 mount /dev/loop0p2 /media
 ```
 
-注意，<span color="red">这里的 loop0 要和上一步中的 loop0 保持一致，有可能是 loop1 等</span>
+注意，<span style="color: red;">这里的 loop0 要和上一步中的 loop0 保持一致，有可能是 loop1 等</span>
 
 5. 删除 openwrt/lib/firmware 并将 media 里的内核模块和驱动等剪切到 openwrt 目录
 
