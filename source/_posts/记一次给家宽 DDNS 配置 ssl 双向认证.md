@@ -8,6 +8,7 @@ categories:
 - 建站相关
 ---
 ### 用 Let's encrypt 配置 HTTPS
+---
 
 1. 安装 certbot
 
@@ -35,6 +36,7 @@ certbot-2 certonly --cert-name ddns.example.com --dns-cloudflare --dns-cloudflar
 ```
 
 ### 自签双向认证证书
+---
 
 [下载签发脚本](https://gist.github.com/jshensh/9442300c6a86b1ab08040d39de37df5b)，先使用 create_ca_cert.sh 签发 CA 证书，然后使用 create_client_cert.sh 签发客户端证书：
 
@@ -49,6 +51,7 @@ certbot-2 certonly --cert-name ddns.example.com --dns-cloudflare --dns-cloudflar
 ```
 
 ### 替换 lnmp 脚本，创建 vhost
+---
 
 将 /usr/bin/lnmp 替换为 [lnmp](https://gist.github.com/jshensh/ae59190701bd00bc69251a99f4183422)
 
@@ -68,6 +71,7 @@ port="49527"
 为屏蔽无效请求添加了第 1281 行的规则，可视情况处理
 
 ### 放行端口
+---
 
 ```shell
 iptables -I INPUT -p tcp --dport 49527 -j ACCEPT
@@ -76,6 +80,7 @@ service iptables restart
 ```
 
 ### 参考文章
+---
 
 * [如何使用CentOS 7上的CloudFlare验证来检索让我们加密SSL通配符证书](https://cloud.tencent.com/developer/article/1360712)
 * [Nginx SSL快速双向认证配置(脚本)](https://segmentfault.com/a/1190000015295122)
