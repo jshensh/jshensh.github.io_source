@@ -61,7 +61,7 @@ chmod +x /usr/bin/lnmp
 lnmp vhost add_ddns
 ```
 
-脚本内弟 22-23 行为域名和端口配置，需要修改
+脚本内第 22-23 行为域名和端口配置，需要修改
 
 ```shell
 ddns_domain="ddns.example.com"
