@@ -121,7 +121,7 @@ server
     {
         listen 80;
         #listen [::]:80;
-        server_name php.openwrt.lan;
+        server_name php.${domain};
         index index.html index.htm index.php default.html default.htm default.php;
         root  ${wwwroot}/php.${domain};
 
